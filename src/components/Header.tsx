@@ -17,7 +17,7 @@ const Header = () => {
   let resMenuItem3 = useRef(null)
   let resMenuItem4 = useRef(null)
 
-  const menu_open = gsap.timeline({ paused: "true", reversed: "true" })
+  const menu_open = gsap.timeline({ paused: true, reversed: true })
 
   useEffect(() => {
     menu_open.to(resMenu.current, {
