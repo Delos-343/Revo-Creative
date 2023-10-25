@@ -32,9 +32,9 @@ const Awards = () => {
             <div className="text-sm md:text-xl">
               (OUR VISION)
             </div>
-            <div className="text-2xl sm:text-3xl md:text-5xl font-bold leading-snug indent-[25vw] my-2">
+            <div className="text-2xl sm:text-3xl md:text-5xl font-bold leading-snug indent-[25vw] mb-4 sm:my-2">
               NOT FOR OUR EGOS, BUT BECAUSE WE HOLD A MEASURE OF STANDARD,
-              ORIGINALITY, AND QUALITY. AIMING FOR SUCCESS PUSHES US TO THINKK
+              ORIGINALITY, AND QUALITY. AIMING FOR SUCCESS PUSHES US TO THINK
               DEEPER, GO FURTHER AND HAVE MEANINGFUL CONVERSATIONS ABOUT WHAT
               TECHNOLOGY IS.
             </div>

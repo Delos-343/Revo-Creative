@@ -1,6 +1,6 @@
 /** @format */
 import React from 'react'
-import { Awards, Concepts, Footer, Header, Office, Publications, SwiperSliderComponent, WhoWeAre,  } from '@/components'
+import { Awards, Concepts, Footer, Header, Office, Portfolio, SwiperSliderComponent, WhoWeAre,  } from '@/components'
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <SwiperSliderComponent />
       <WhoWeAre />
       <Concepts />
-      <Publications />
+      <Portfolio />
       <Awards />
       <Office />
       <Footer />

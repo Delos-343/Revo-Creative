@@ -126,7 +126,7 @@ const Header = () => {
             onClick={menuOpen}
             className="block md:hidden cursor-pointer mx-[5px]"
           >
-            <Image alt="" src={menu} className="w-9 object-contain invert" />
+            <Image alt="" src={menu} className="hidden w-9 object-contain invert" />
           </div>
         </div>
         <div className="flex items-start text-sm justify-between sm:justify-evenly px-5 py-5 mt-5 w-[100%] h-fit">

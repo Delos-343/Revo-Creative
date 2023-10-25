@@ -5,10 +5,10 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import imageSlider1 from 'public/images/imageSlider1.png'
 import imageSlider2 from 'public/images/imageSlider2.png'
-import imageSlider3 from 'public/images/imageSlider3.jpg'
-import imageSlider4 from 'public/images/imageSlider4.jpg'
+import imageSlider3 from 'public/images/imageSlider3.png'
+import imageSlider4 from 'public/images/imageSlider4.png'
 import imageSlider5 from 'public/images/imageSlider5.png'
-import imageSlider6 from 'public/images/imageSlider6.jpg'
+import imageSlider6 from 'public/images/imageSlider6.png'
 import Image from 'next/image'
 
 const SwiperSliderComponent = () => {
@@ -17,7 +17,7 @@ const SwiperSliderComponent = () => {
 
   useEffect(() => {
     let w = window.innerWidth
-    w < 768 ? setSlides(1.5) : setSlides(1.7)
+    w < 768 ? setSlides(1.2) : setSlides(1.5)
   }, [])
 
   return (
@@ -49,7 +49,7 @@ const SwiperSliderComponent = () => {
               </p>
             </div>
             <div className="text-5xl font-bold md:text-7xl lg:text-9xl 2xl:text-[12rem] leading-none">
-              R E V O
+              Hello <span className="text-blue-600 text-5xl font-light"> World </span>
             </div>
           </div>
         </SwiperSlide>
@@ -65,7 +65,7 @@ const SwiperSliderComponent = () => {
             <div className="flex flex-col justify-between h-full py-1 px-2">
               <p>
                 <span className="text-red-700">
-                  Log 01 ~ A
+                  Uncompromised
                 </span>
                 <br /> 901
               </p>
@@ -74,7 +74,7 @@ const SwiperSliderComponent = () => {
               </p>
             </div>
             <div className="text-5xl font-bold md:text-7xl lg:text-9xl leading-none">
-              CREATIVE
+              R E V O
             </div>
           </div>
         </SwiperSlide>
@@ -90,7 +90,7 @@ const SwiperSliderComponent = () => {
             <div className="flex flex-col justify-between h-full py-1 px-2">
               <p>
                 <span className="text-red-700">
-                  Log 01 ~ B
+                  Creativity
                 </span>
                 <br /> 343
               </p>
@@ -99,7 +99,7 @@ const SwiperSliderComponent = () => {
               </p>
             </div>
             <div className="text-5xl font-bold md:text-7xl 2xl:text-[12rem] lg:text-9xl leading-none">
-              HELLO
+              CREATIVE
             </div>
             <div></div>
           </div>
@@ -116,7 +116,7 @@ const SwiperSliderComponent = () => {
             <div className="flex flex-col justify-between h-full py-1 px-2">
               <p>
                 <span className="text-red-700">
-                  Log 01 ~ C
+                  Software House
                 </span>
                 <br /> 117
               </p>
@@ -125,7 +125,7 @@ const SwiperSliderComponent = () => {
               </p>
             </div>
             <div className="text-5xl font-bold md:text-7xl 2xl:text-[12rem] lg:text-9xl leading-none">
-              WORLD
+              TECH
             </div>
             <div></div>
           </div>
@@ -142,7 +142,7 @@ const SwiperSliderComponent = () => {
             <div className="flex flex-col justify-between h-full py-1 px-2">
               <p>
                 <span className="text-red-700">
-                  Log 1 ~ D
+                  Fullstack Development
                 </span>
                 <br /> 904
               </p>
@@ -151,7 +151,7 @@ const SwiperSliderComponent = () => {
               </p>
             </div>
             <div className="text-5xl 2xl:text-[12rem] font-bold md:text-7xl lg:text-9xl leading-none">
-              ANNYA
+              CODE
             </div>
           </div>
         </SwiperSlide>
@@ -167,7 +167,7 @@ const SwiperSliderComponent = () => {
             <div className="flex flex-col justify-between h-full py-1 px-2">
               <p>
                 <span className="text-red-700">
-                  Honey Bear
+                  UI / UX &nbsp; Design
                 </span>
                 <br /> 007
               </p>
@@ -176,7 +176,7 @@ const SwiperSliderComponent = () => {
               </p>
             </div>
             <div className="text-5xl font-bold md:text-7xl lg:text-9xl 2xl:text-[12rem] leading-none">
-              DELOS
+              ART
             </div>
             <div></div>
           </div>

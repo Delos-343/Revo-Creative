@@ -19,7 +19,7 @@ const WhoWeAre = () => {
             <div className="text-sm md:text-xl">
               (REVO CREATIVE)
             </div>
-            <div className="text-3xl md:text-5xl font-bold leading-snug indent-[30vw] my-2">
+            <div className="text-2xl md:text-5xl font-bold leading-snug indent-[30vw] my-2">
               AN INDEPENDENT IT AGENCY HELPING BRANDS TELL POWERFUL, AUTHENTIC
               STORIES WITH CODE.
               <br /> <br />

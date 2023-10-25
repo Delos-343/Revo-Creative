@@ -4,7 +4,7 @@ import Image from 'next/image'
 import React from 'react'
 
 import concept1 from 'public/images/concept1.png'
-import concept2 from 'public/images/concept2.jpg'
+import concept2 from 'public/images/concept2.png'
 
 const Concepts = () => {
   return (
