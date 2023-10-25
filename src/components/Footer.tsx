@@ -3,6 +3,7 @@
 import React from 'react'
 
 const Footer = () => {
+
   return (
     <div className="relative font-neutralFace px-3">
       <div className="hidden lg:block mb-[10vh]">
@@ -18,10 +19,7 @@ const Footer = () => {
           INSTAGRAM
         </div>
         <div className="text-4xl underline">
-          FACEBOOK
-        </div>
-        <div className="text-4xl underline">
-          VIMEO
+          LINKEDIN
         </div>
         <div className="text-4xl underline">
           SPOTIFY
@@ -38,7 +36,7 @@ const Footer = () => {
           ABOUT
         </div>
         <div className="mx-1 font-neutralFace font-bold text-[30px]">
-          PUBLICATIONS
+          TEAM
         </div>
         <div className="mx-1 font-neutralFace font-bold text-[30px]">
           OFFICE
@@ -47,26 +45,23 @@ const Footer = () => {
       <div className="w-full h-[2px] bg-white"></div>
       <div className="flex flex-col lg:flex-row lg:mt-20 mb-2 items-start lg:items-end justify-between">
         <div className="my-5 lg:my-0">
-          COPYRIGHT 2023 - TS
+          COPYRIGHT 2023 - REVO CREATIVE
         </div>
         <div>
           JOBS
         </div>
         <div>
-          A independent <br /> music agency
+          A independent <br /> IT agency
         </div>
         <div>
-          open roles
+          Open Roles
         </div>
         <div className="flex space-x-3 mt-5">
           <div>
             INSTAGRAM
           </div>
           <div>
-            FACEBOOK
-          </div>
-          <div>
-            VIMEO
+            LINKEDIN
           </div>
           <div>
             SPOTIFY

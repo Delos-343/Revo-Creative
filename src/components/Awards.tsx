@@ -11,6 +11,7 @@ import award5 from 'public/images/award5.png'
 import award6 from 'public/images/award6.png'
 
 const Awards = () => {
+  
   return (
     <div className="relative font-neutralFace">
       <div className="bg-[#e7e7e7] text-black h-[80vh]">
@@ -21,21 +22,21 @@ const Awards = () => {
               BOLD
             </div>
             <div>
-              CULTURALLY CONNECTED
+              TECHNICAL
             </div>
             <div>
-              INCLUSIVE
+              CUTTING-EDGED
             </div>
           </div>
           <div className="my-28">
             <div className="text-sm md:text-xl">
-              (OUR AWARDS)
+              (OUR VISION)
             </div>
             <div className="text-2xl sm:text-3xl md:text-5xl font-bold leading-snug indent-[25vw] my-2">
-              NOT FOR OUR EGOS, BUT BECAUSE AWARDS ARE A MEASURE OF CREATIVITY,
-              ORIGINALITY AND QUALITY. AIMING FOR AWARDS PUSHES US TO THINK
+              NOT FOR OUR EGOS, BUT BECAUSE WE HOLD A MEASURE OF STANDARD,
+              ORIGINALITY, AND QUALITY. AIMING FOR SUCCESS PUSHES US TO THINKK
               DEEPER, GO FURTHER AND HAVE MEANINGFUL CONVERSATIONS ABOUT WHAT
-              CREATIVITY IS.
+              TECHNOLOGY IS.
             </div>
           </div>
         </div>
