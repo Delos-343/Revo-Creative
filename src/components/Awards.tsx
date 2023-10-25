@@ -1,26 +1,36 @@
 /** @format */
 
-import Image from "next/image";
-import React from "react";
-import award1 from "../images/award1.png";
-import award2 from "../images/award2.png";
-import award3 from "../images/award3.png";
-import award4 from "../images/award4.png";
-import award5 from "../images/award5.png";
-import award6 from "../images/award6.png";
-function Awards() {
+import Image from 'next/image'
+import React from 'react'
+
+import award1 from 'public/images/award1.png'
+import award2 from 'public/images/award2.png'
+import award3 from 'public/images/award3.png'
+import award4 from 'public/images/award4.png'
+import award5 from 'public/images/award5.png'
+import award6 from 'public/images/award6.png'
+
+const Awards = () => {
   return (
     <div className="relative font-neutralFace">
       <div className="bg-[#e7e7e7] text-black h-[80vh]">
         <div className="px-3 py-2">
           <div className="w-full h-[1px] bg-black"></div>
           <div className="flex justify-between w-full text-xs py-2">
-            <div>BOLD</div>
-            <div>CULTURALLY CONNECTED</div>
-            <div>INCLUSIVE</div>
+            <div>
+              BOLD
+            </div>
+            <div>
+              CULTURALLY CONNECTED
+            </div>
+            <div>
+              INCLUSIVE
+            </div>
           </div>
           <div className="my-28">
-            <div className="text-sm md:text-xl">(OUR AWARDS)</div>
+            <div className="text-sm md:text-xl">
+              (OUR AWARDS)
+            </div>
             <div className="text-2xl sm:text-3xl md:text-5xl font-bold leading-snug indent-[25vw] my-2">
               NOT FOR OUR EGOS, BUT BECAUSE AWARDS ARE A MEASURE OF CREATIVITY,
               ORIGINALITY AND QUALITY. AIMING FOR AWARDS PUSHES US TO THINK
@@ -85,7 +95,7 @@ function Awards() {
         />
       </div>
     </div>
-  );
+  )
 }
 
-export default Awards;
+export default Awards

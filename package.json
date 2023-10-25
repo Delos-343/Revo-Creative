@@ -1,5 +1,5 @@
 {
-  "name": "sizzer-clone-yt-video",
+  "name": "revo-creative",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -18,8 +18,10 @@
     "swiper": "^8.4.4"
   },
   "devDependencies": {
+    "@types/react": "18.2.31",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.18",
-    "tailwindcss": "^3.2.2"
+    "tailwindcss": "^3.2.2",
+    "typescript": "5.2.2"
   }
 }

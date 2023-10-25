@@ -1,4 +1,7 @@
-/** @format */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: "Monument Extended";
   font-style: normal;
@@ -20,21 +23,15 @@
   font-style: normal;
   font-weight: 400;
   src: local("Neutral Face"),
-    url("../fonts/neutralface-webfont.woff") format("woff");
+    url("https://fonts.cdnfonts.com/css/neutral-face") format("woff");
 }
 @font-face {
   font-family: "Neutral Face";
   font-style: normal;
   font-weight: 800;
   src: local("Neutral Face"),
-    url("../fonts/neutralface-bold-webfont.woff") format("woff");
+    url("https://fonts.cdnfonts.com/css/neutral-face") format("woff");
 }
-
-/* you can download this fonts file in description below */
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 body {
   background-color: black;
