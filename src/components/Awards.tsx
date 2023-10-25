@@ -48,7 +48,7 @@ const Awards = () => {
           </h1>
         </div>
       </div>
-      <div className="absolute top-[35%] right-[10%]">
+      <div className="absolute top-[55%] right-[15%]">
         <Image
           alt=""
           src={award1}
@@ -56,7 +56,7 @@ const Awards = () => {
         />
       </div>
 
-      <div className="absolute bottom-[15%] left-[15%]">
+      <div className="absolute bottom-[20%] left-[15%]">
         <Image
           alt=""
           src={award2}
@@ -64,15 +64,15 @@ const Awards = () => {
         />
       </div>
 
-      <div className="absolute bottom-[50%] left-[20%]">
+      <div className="absolute top-[85%] sm:bottom-[15%] sm:left-[25%]">
         <Image
           alt=""
           src={award3}
-          className="h-28 sm:h-44 md:h-80 z-10 object-contain"
+          className="h-28 sm:h-30 md:h-48 z-10 object-contain"
         />
       </div>
 
-      <div className="absolute bottom-[30%] left-[60%]">
+      <div className="absolute bottom-[13%] left-[80%]">
         <Image
           alt=""
           src={award4}
@@ -80,7 +80,7 @@ const Awards = () => {
         />
       </div>
 
-      <div className="absolute right-[50%] bottom-[30%]">
+      <div className="absolute top-[60%] right-[70%] md:bottom-[10%]">
         <Image
           alt=""
           src={award5}
@@ -88,7 +88,7 @@ const Awards = () => {
         />
       </div>
 
-      <div className="absolute bottom-[15%] right-[35%]">
+      <div className="absolute bottom-[30%] right-[25%]">
         <Image
           alt=""
           src={award6}
