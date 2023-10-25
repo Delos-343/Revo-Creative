@@ -5,6 +5,7 @@ import React from 'react'
 import office from 'public/images/home-office.png'
 
 const Office = () => {
+
   return (
     <div className="relative h-fit font-neutralFace w-full py-5 px-3">
       <div className="w-full h-[2px] bg-white"> </div>
@@ -31,7 +32,7 @@ const Office = () => {
           (LETS HEAR <br /> SOMETHING)
         </div>
         <div className="text-2xl md:text-3xl lg:text-8xl font-bold">
-          REVO-CREATIVE.COM
+          REVO-CREATIVE.VERCEL.APP
         </div>
       </div>
       <div className="w-full h-[3px] bg-white"></div>
